@@ -1,0 +1,425 @@
+:root {
+  --bg-color: #f6f1eb;
+  --text-color: #fff;
+  --navbar: #fff;
+  --text-black: #5a5a5a7d;
+  --text-second: #6e6e6e;
+  --main-color: #e86346;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: var(--bg-color);
+}
+.navbar {
+  background-color: var(--navbar);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--main-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.navbar-brand span {
+  color: rgb(76, 76, 76);
+}
+.navbar .navbar-nav .nav-link.active {
+  color: var(--main-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.navbar .navbar-nav .nav-link {
+  color: rgb(76, 76, 76);
+  font-size: 1.1rem;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--main-color);
+}
+.btn-contact {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.btn-contact:hover {
+  background-color: var(--text-color);
+  color: var(--main-color);
+}
+.hero {
+  height: 100vh;
+}
+.hero .container-fluid {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero .line-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.line-top span {
+  font-size: 1.3rem;
+  color: var(--text-black);
+}
+.hero .line {
+  width: 100%;
+  height: 3px;
+  border-radius: 1px;
+  background-color: var(--text-black);
+}
+.hero .line-top .line.gone {
+  display: none;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.hero h1 span {
+  color: var(--main-color);
+}
+.hero p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text-second);
+  text-align: justify;
+}
+.hero .hero-btn {
+  padding: 0.8rem 3rem;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.hero .hero-btn:hover {
+  background-color: var(--text-color);
+  color: var(--main-color);
+}
+.hero .container-fluid .row.main-row {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.hero .container-fluid .row.side-row {
+  width: 100%;
+  padding: 10px;
+  height: auto;
+}
+.hero .container-fluid .row.side-top {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+.hero .container-fluid .row.side-top img {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
+.hero .container-fluid .row img {
+  width: 100%;
+  height: auto;
+}
+.hero .container-fluid .row .img-bot {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  object-position: center;
+}
+.hero .container-fluid .row .img-bot-v2 {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  object-position: center;
+}
+/* about */
+.about {
+  margin-top: 10rem;
+  background-color: antiquewhite;
+  padding: 2rem 0;
+  margin-bottom: 8rem;
+}
+.about img {
+  width: 80%;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.about h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--main-color);
+}
+.about p {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+.about .line-top {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+.about .line-top span {
+  width: 100%;
+  max-width: 7rem;
+}
+.about .line {
+  width: 100%;
+  height: 3px;
+  border-radius: 1px;
+  background-color: var(--text-black);
+}
+.about .line-top .line.gone {
+  display: none;
+}
+.about .btn-contact {
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: linear 0.3;
+  width: 40%;
+  margin: 1rem 0;
+  text-align: center;
+}
+.about .btn-contact:hover {
+  background-color: var(--text-color);
+  color: var(--main-color);
+}
+.about .pengalaman span {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+.about .pengalaman h5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text-black);
+}
+.galery {
+  margin: 5rem 0;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.galery h2,
+.layanan h2 {
+  font-size: 3rem;
+  margin: 1rem 0;
+  text-align: center;
+  font-weight: 600;
+  color: var(--main-color);
+}
+.galery img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+.galery .grid-swipper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galery .grid-swipper > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.galery .grid-swipper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  grid-auto-flow: dense;
+}
+.grid-swipper .wide {
+  grid-column: span 2;
+}
+.grid-swipper .tall {
+  grid-row: span 2;
+}
+.grid-swipper .big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.galery .btn-contact {
+  padding: 0.5rem 2rem;
+}
+.layanan {
+  background-color: antiquewhite;
+  padding: 2rem 0;
+  margin-bottom: 8rem;
+}
+.layanan .card {
+  background-color: transparent;
+  border: none;
+
+  height: auto;
+}
+.layanan .card-body {
+  justify-content: space-between;
+}
+.layanan .card-body p {
+  text-align: justify;
+}
+.layanan img {
+  width: 100%;
+  height: 15rem;
+  object-position: center;
+  object-fit: cover;
+}
+.layanan .btn-layanan {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 400;
+  transition: linear 0.3;
+  width: 100%;
+  margin: 1rem 0;
+  text-align: center;
+}
+.layanan .btn-layanan:hover {
+  background-color: var(--text-color);
+  color: var(--main-color);
+}
+.contact {
+  padding: 2rem 0;
+}
+.contact h2 {
+  font-size: 3rem;
+  color: var(--main-color);
+  text-align: center;
+  font-weight: 600;
+}
+.contact .header {
+  width: 100%;
+  max-width: 30rem;
+  margin: auto;
+}
+.contact .sosmed {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contact .sosmed img {
+  width: 2.2rem;
+}
+.contact input {
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 5px;
+  padding: 0 0.5rem;
+  border: none;
+  border-bottom: 2px solid var(--main-color);
+  box-shadow: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+.contact textarea {
+  width: 100%;
+  height: 20rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 2px solid var(--main-color);
+}
+textarea:focus,
+textarea.form-control:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+footer {
+  background-color: antiquewhite;
+  padding: 1rem 0;
+}
+footer img {
+  width: 2rem;
+}
+footer .top a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--main-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: none;
+}
+footer .top a span {
+  color: rgb(76, 76, 76);
+}
+footer .top p {
+  width: 100%;
+  max-width: 15rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(76, 76, 76);
+}
+footer ul {
+  display: flex;
+  gap: 1rem;
+}
+footer ul li {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+footer ul li a {
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+footer ul li a:hover {
+  color: var(--main-color);
+}
+footer .bot p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(76, 76, 76);
+}
+footer .right {
+  width: 100%;
+  max-width: 20rem;
+}
+footer .right p {
+  font-size: 1rem;
+}
+.modal-content {
+  background-image: url("../img/layanan-1.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  color: var(--bg-color);
+  position: relative;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+.modal-content::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.671);
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,183 @@
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+  .layanan .card {
+    background-color: transparent;
+    border: none;
+
+    height: 30rem;
+  }
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 75%;
+  }
+  .layanan .card {
+    background-color: transparent;
+    border: none;
+    height: 33rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  .navbar .navbar-brand {
+    font-size: 3rem;
+  }
+  .navbar .navbar-nav .nav-link.active {
+    color: var(--main-color);
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: rgb(76, 76, 76);
+    font-size: 1.8rem;
+  }
+  .navbar .navbar-toggler {
+    font-size: 2rem;
+    background-color: var(--main-color);
+  }
+  .navbar .navbar-toggler:hover {
+    font-size: 2rem;
+    background-color: var(--text-color);
+  }
+  .navbar .btn-contact {
+    width: 50%;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+  }
+  .hero {
+    height: 100vh;
+  }
+  .hero .container-fluid {
+    height: 100%;
+    padding-top: 6rem;
+    text-align: center;
+  }
+  .line-top span {
+    font-size: 1.5rem;
+    color: var(--text-black);
+  }
+  .hero .line-top .line.gone {
+    display: block;
+  }
+  .about .line-top .line.gone {
+    display: block;
+  }
+  .about .line-top span {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .hero .hero-btn {
+    padding: 0.8rem 3rem;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: linear 0.3;
+    width: 100%;
+    max-width: 20rem;
+  }
+  .hero .hero-btn:hover {
+    background-color: var(--text-color);
+    color: var(--main-color);
+  }
+  .about img {
+    width: 50%;
+    height: 40rem;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .about h2 {
+    font-size: 3.4rem;
+    font-weight: 700;
+    color: var(--main-color);
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  .about p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+  }
+  .about .btn-contact {
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    transition: linear 0.3;
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  .about .btn-contact:hover {
+    background-color: var(--text-color);
+    color: var(--main-color);
+  }
+  .about .cta-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .layanan .card {
+    background-color: transparent;
+    border: none;
+
+    height: 35rem;
+  }
+  .contact input {
+    width: 100%;
+    height: 4rem;
+    border-radius: 5px;
+    padding: 0 1rem;
+    border: none;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: none;
+    outline: none;
+    font-size: 1.5rem;
+  }
+  .contact textarea {
+    width: 100%;
+
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 2px solid var(--main-color);
+  }
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  footer .right {
+    width: 100%;
+    max-width: 16rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  .about img {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .layanan .card {
+    background-color: transparent;
+    border: none;
+
+    height: 32rem;
+  }
+}
